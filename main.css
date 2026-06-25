@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+
 }
 .sing {
     width: 150px;
@@ -113,7 +114,7 @@ top: 70px;
   padding-left: 100px;
     width: 210px;
     height: 40px;
-    background-color: rgba(225, 211, 254, 0.22);
+    background-color: rgba(255, 255, 255, 0.26);
     gap: 10px;
     border-radius: 7px;
 }
@@ -180,6 +181,7 @@ top: 70px;
 .divall5{
     width: 90%;
     display: flex;
+    margin: auto;
 }
 .see1{
     display: flex;
@@ -187,4 +189,95 @@ top: 70px;
     row-gap: 30px;
     margin-top: 150px;
     font-size: 25px;
+}
+.top{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.am{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.blaza{
+    width: 360px;
+    height: 410px;
+    background-color: rgb(245, 251, 251);
+    border-radius: 50px 0px 50px 0px;
+    margin-top: 20px;
+}
+.blazaall{
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 20PX;
+padding-top: 30px;
+}
+.offff{
+    width: 90%;
+    height: 600px;
+ 
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+
+ position: relative;
+}
+.of{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.offf{
+   
+     position: relative;
+}
+.off1{
+position: absolute;
+top: -230px;
+left: -490px;
+}
+.off2{
+position: absolute;
+z-index: 1;
+top: -250px;
+left: -300px;
+
+}
+.off3{
+position: absolute;
+top: -230px;
+left: -200px;
+}
+.divai{
+    width: 400px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 25px;
+    
+   
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.end2{
+    display: flex;
+    gap:20px;
+}
+.end1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.size{
+    width: 20px;
+    height: 20px;
 }
